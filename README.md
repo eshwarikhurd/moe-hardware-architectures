@@ -12,11 +12,11 @@ dataflow accelerators with tiered memory. Drawing on recent architecture and sys
 handles expert memory capacity, expert offloading and prefetching, and the communication pattern of expert
 parallelism, and where each one falls short.
 
-To ground the comparison, we will record real expert-routing traces from an open MoE model and use them to drive two
-simulators. The first maps experts onto modeled interconnect topologies and measures load imbalance and all-to-all
+To ground the comparison, the project records real expert-routing traces from an open MoE model and uses them to drive
+two simulators. The first maps experts onto modeled interconnect topologies and measures load imbalance and all-to-all
 traffic under random and topology-aware placement. The second models a two-tier memory and measures the expert cache
-hit rate under LRU replacement and under prediction from the previous layer's routing. Based on these results, we
-propose hardware-assisted expert prediction and topology-aware expert placement as directions for future AI
+hit rate under LRU replacement and under prediction from the previous layer's routing. Based on these results, it
+proposes hardware-assisted expert prediction and topology-aware expert placement as directions for future AI
 architectures.
 
 ## Papers
